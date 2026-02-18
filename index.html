@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>9434 — Node</title>
+<meta name="description" content="9434 — a quiet memory node.">
+<link rel="canonical" href="https://9434.us/">
+
+<meta name="color-scheme" content="dark">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<!-- Identity hint (soft link, not a brand takeover) -->
+<link rel="me" href="https://evanbei.com/">
+
+<style>
+  :root{
+    --bg:#0b0b0c;
+    --fg:#eaeaea;
+    --muted:rgba(234,234,234,.55);
+    --faint:rgba(234,234,234,.35);
+    --link:#9fb4ff;
+  }
+
+  html,body{
+    margin:0;
+    height:100%;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing:.02em;
+  }
+
+  .wrap{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+
+  .node{
+    max-width:760px;
+    padding:44px 20px;
+  }
+
+  /* ultra-subtle "breath" */
+  @keyframes breath {
+    0%   { opacity:.78; filter: drop-shadow(0 0 0 rgba(255,255,255,0)); transform: translateY(0); }
+    50%  { opacity:.98; filter: drop-shadow(0 0 10px rgba(255,255,255,.10)); transform: translateY(-0.5px); }
+    100% { opacity:.78; filter: drop-shadow(0 0 0 rgba(255,255,255,0)); transform: translateY(0); }
+  }
+
+  .num{
+    font-size:64px;
+    font-weight:300;
+    letter-spacing:.18em;
+    opacity:.9;
+    animation: breath 7.2s ease-in-out infinite;
+    will-change: opacity, filter, transform;
+  }
+
+  .line{
+    margin-top:18px;
+    font-size:14px;
+    color:var(--muted);
+  }
+
+  .meta{
+    margin-top:42px;
+    font-size:12px;
+    color:var(--faint);
+  }
+
+  a{
+    color:var(--link);
+    text-decoration:none;
+  }
+  a:hover{ opacity:.7; }
+
+  /* Optional details (kept quiet) */
+  details{
+    margin:26px auto 0;
+    width:min(520px, 92vw);
+    text-align:left;
+  }
+  summary{
+    cursor:pointer;
+    list-style:none;
+    color:var(--faint);
+    font-size:12px;
+    outline:none;
+    user-select:none;
+  }
+  summary::-webkit-details-marker{ display:none; }
+  .card{
+    margin-top:10px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    padding:12px 14px;
+    background:rgba(255,255,255,.03);
+    font-size:12px;
+    color:rgba(234,234,234,.62);
+    line-height:1.55;
+  }
+  .mono{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    letter-spacing:0;
+    color:rgba(234,234,234,.70);
+  }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+  <main class="node" aria-label="9434 memory node">
+
+    <div class="num" aria-label="9434">9434</div>
+
+    <div class="line">the first number after departure</div>
+
+    <div class="meta">
+      a quiet node · <a href="https://evanbei.com/" rel="me">evanbei.com</a>
+    </div>
+
+    <!-- keep it minimal, but verifiable -->
+    <details>
+      <summary>record</summary>
+      <div class="card">
+        <div><span class="mono">domain</span>: 9434.us</div>
+        <div><span class="mono">registrar</span>: Cloudflare, Inc. (IANA 1910)</div>
+        <div><span class="mono">created</span>: 2026-02-18 21:36:27Z</div>
+        <div><span class="mono">entity</span>: Goldisle Light Org</div>
+        <div style="margin-top:8px; opacity:.85">
+          This page is intentionally small.
+        </div>
+      </div>
+    </details>
+
+  </main>
+</div>
+
+<!--
+WHOIS reference (user-provided):
+- Domain: 9434.US
+- Creation Date: 2026-02-18T21:36:27Z
+- Expiry: 2027-02-18T21:36:27Z
+- Registrar: Cloudflare, Inc. / whois.cloudflare.com
+- Nameservers: justin.ns.cloudflare.com, lady.ns.cloudflare.com
+- Registrant Org: GOLDISLE LIGHT ORG
+-->
+</body>
+</html>
