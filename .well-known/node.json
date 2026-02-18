@@ -1,0 +1,22 @@
+{
+  "@context": "https://evanbei.com/ns/node.jsonld",
+  "id": "https://9434.us/",
+  "type": "memory-node",
+  "name": "9434",
+  "description": "A quiet memory node — the first number after departure.",
+  "owner": {
+    "name": "Evan Bei",
+    "legal_name": "Xiaojun Yin",
+    "organization": "Goldisle Light Org",
+    "origin": "https://evanbei.com/"
+  },
+  "links": {
+    "origin_node": "https://evanbei.com/",
+    "publishing": "https://goldisle.org/"
+  },
+  "network": {
+    "role": "satellite",
+    "layer": "memory"
+  },
+  "created": "2026-02-18T21:36:27Z"
+}
